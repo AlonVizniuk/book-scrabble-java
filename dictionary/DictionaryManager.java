@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class DictionaryManager {
     private static DictionaryManager dm=null;
-    public Map<String, Dictionary> map=new HashMap<>();
+    public static Map<String, Dictionary> map=new HashMap<>();
 
     public DictionaryManager() {
     }
@@ -15,7 +15,7 @@ public class DictionaryManager {
             dm=new DictionaryManager();
         return dm;
     }
-    public boolean query(String...books){
+    public static boolean query(String...books){
         String last=books[books.length-1];
         boolean flag=false;
         for(int i=0; i< books.length-1; i++){
@@ -27,7 +27,7 @@ public class DictionaryManager {
                 flag=true;
         return flag;
     }
-    public boolean challenge(String...books){
+    public static boolean challenge(String...books){
         String last=books[books.length-1];
         boolean flag=false;
         for(int i=0; i< books.length-1; i++){
