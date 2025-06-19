@@ -1,4 +1,4 @@
-#Book Scrabble (Java)
+# Book Scrabble (Java)
 
 A complete **Scrabble‑like word‑game engine** written in pure Java.  
 The project demonstrates advanced data‑structure design, efficient
@@ -7,7 +7,7 @@ simple multi‑threaded **client–server** model.
 
 ---
 
-##Project Highlights
+## Project Highlights
 * **Board engine** – 15 × 15 board, special tiles (DL, TL, DW, TW, ⭐), scoring & validation  
 * **Tile bag** – correct English letter distribution, scores, random draw / put‑back  
 * **Dictionary stack**
@@ -22,7 +22,7 @@ simple multi‑threaded **client–server** model.
 
 ---
 
-##Directory Layout
+## Directory Layout
 
 ```
 src/
@@ -51,13 +51,13 @@ src/
 
 ---
 
-##Quick Start
+## Quick Start
 
-###Prerequisites
+### Prerequisites
 * **Java 8** or newer
 * A terminal / shell (or an IDE such as IntelliJ IDEA / Eclipse)
 
-###Build
+### Build
 
 ```bash
 # clone / copy the repo, then:
@@ -72,7 +72,7 @@ mkdir bin
 for /R src %f in (*.java) do javac -d bin %f
 ```
 
-###Run the built‑in tests
+### Run the built‑in tests
 
 ```bash
 cd bin
@@ -89,7 +89,7 @@ done
 
 ---
 
-##Running the Server
+## Running the Server
 
 The test suite does not start the socket server for you; the snippet
 below shows the minimal bootstrap:
@@ -119,7 +119,7 @@ from another thread.
 
 ---
 
-##Client Protocol
+## Client Protocol
 
 `BookScrabbleHandler` expects a very simple **one‑line request**:
 
@@ -158,7 +158,7 @@ followed by `\n`.
 
 ---
 
-##Customization
+## Customization
 
 | Area                | Where to look                | Ideas                                   |
 |---------------------|------------------------------|-----------------------------------------|
@@ -170,7 +170,7 @@ followed by `\n`.
 
 ---
 
-##License
+## License
 
 This repository is released **as‑is for educational use**.  
 No warranty, express or implied.
