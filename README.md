@@ -7,7 +7,7 @@ simple multi‑threaded **client–server** model.
 
 ---
 
-## Project Highlights ##
+## Project Highlights
 * **Board engine** – 15 × 15 board, special tiles (DL, TL, DW, TW, ⭐), scoring & validation  
 * **Tile bag** – correct English letter distribution, scores, random draw / put‑back  
 * **Dictionary stack**
